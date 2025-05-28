@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-with-a-route,-1-child-and-a-vehicle;search-with-a-route,-1-child-and-a-vehicle",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search with a route, 1 child and a vehicle",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1557883484
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to the Direct Ferries homepage",
+            "match": {
+              "location": "Src/step/searchSteps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4754828456
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select the Dover route",
+            "match": {
+              "location": "Src/step/searchSteps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922116514
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I select 1 child",
+            "match": {
+              "location": "Src/step/searchSteps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448490603
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I select a vehicle",
+            "match": {
+              "location": "Src/step/searchSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1353754494
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the Search button",
+            "match": {
+              "location": "Src/step/searchSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5080737519
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1541616481
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-with-a-route,-1-child-and-a-vehicle",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search with a route, 1 child and a vehicle",
+    "tags": [],
+    "uri": "Src/Features/search.feature"
+  }
+]
